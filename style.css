@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+}
+
+#main_vcard_area {
+    background-color: #003186;
+    padding-bottom: 50px;
+}
+
+nav {
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #F9EED8;
+}
+
+.title_content {
+    text-align: center;
+    background-color: #F9EED8;
+    h1 {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 50px;
+        font-weight: normal;
+        color: #003186;   
+    }    
+}
+
+.hero_area .hero_img img {
+    width: 100%;
+}
+
+.main_content_area {
+    display: flex;
+    margin-top: 30px;
+}
+
+.content_left_img img {
+    width: 120px;
+}
+.content_right_img img {
+    width: 120px;
+    margin-top: 40px;
+}
+
+.main_content_text {
+    text-align: center;
+    margin-top: 40px;
+    color: #F9EED8;
+    h3 {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        color: #F9EED8;    
+    }
+    p {
+        font-family: Poppins, sans-serif;
+        line-height: 21px;
+        color: #F9EED8;
+        font-size: 14px;
+        margin-top: 25px;    
+    }
+}
+
+.background_img {
+    background-image: url(image/group_17.png);
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.background_left_text {
+    text-align: center;
+    margin-left: 58px;
+    p {
+        font-family: Poppins, sans-serif;
+        line-height: 17px;
+        color: #003186;
+        font-size: 14px; 
+        margin-top: 10px;       
+    }
+    h3 {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        color: #003186;        margin-top: 20px;
+    }
+}
+
+.background_right_text {
+    text-align: center;
+    margin-right: 70px;
+    p {
+        font-family: Poppins, sans-serif;
+        line-height: 17px;
+        color: #003186;
+        font-size: 14px;  
+        margin-top: 10px;      
+    }
+    h3 {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        color: #003186;        margin-top: 20px;
+    }
+}
+
+/*  */
+
+.background_img2 {
+    background-image: url(image/ellipse_12_6Re.png);
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 30px;
+}
+
+.background_text {
+    text-align: center;
+    p {
+        font-family: Poppins, sans-serif;
+        line-height: 17px;
+        color: #003186;
+        font-size: 14px;  
+        margin-top: 10px;      
+    }
+    h3 {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        color: #003186;        margin-top: 20px;
+    }
+}
+
+.btn {
+    text-align: center;
+    margin-top: 20px;
+}
+.btn button {
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+    color: #F9EED8;
+    font-weight: 600;
+}
+
+.act_head_img img {
+    width: 100%;
+    margin-top: 50px;
+}
+.act_body_img img {
+    background-color: #F9EED8;
+    width: 200px;
+}
+.act_footer_img img{
+    width: 100%;
+}
+
+.act_body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9EED8;
+    gap: 30px;
+    h2 {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: normal;
+        color: #003186;
+        padding-bottom: 30px;
+    }
+    strong {
+        padding-right: 10px;
+        font-family: Poppins, sans-serif;
+        line-height: 21px;
+        color: #003186;
+        font-size: 14px;        
+    }
+    .list {
+        margin-top: 30px;
+    }
+    .list li {
+        margin-top: 20px;
+        font-family: Poppins, sans-serif;
+        line-height: 21px;
+        color: #003186;
+        font-size: 14px;    
+    }
+}
+
+.act_body_text {
+    background-color: #F9EED8;
+}
+
+/* action_area */
+
+.action_area {
+    text-align: center;
+}
+
+.action_content {
+    h2 {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: normal;
+        color: #F9EED8;        margin-top: 10px;
+    }
+    p {
+        font-family: Poppins, sans-serif;
+        line-height: 21px;
+        color: #F9EED8;
+        font-size: 14px;     
+        margin-top: 20px;   
+        padding-bottom: 10px;
+    }
+}
+
+/* Footer */
+
+footer {
+    margin-top: 60px;
+}
+
+.footer_icon {
+    text-align: center;
+}
+.icon_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon_list li {
+    list-style: none;
+    background-color: #ffff;
+    color: #003186;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    padding: 9px;
+}
+
+.footer_content {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer_list li {
+    list-style: none;
+    color: #F9EED8;
+    line-height: 40px;
+    font-family: Poppins, sans-serif;
+    h2 {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: normal;
+        padding-bottom: 10px;       
+    }
+}
+.footer_list li a {
+    color: #F9EED8;
+    text-decoration: none;
+}
+
+.footer_img {
+    text-align: center;
+    margin-top: 30px;
+}
