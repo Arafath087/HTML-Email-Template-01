@@ -9,11 +9,11 @@ body {
     background-color: white;
     justify-content: center;
     align-items: center;
-    width: 600px;
     margin: auto;
 }
 
 #main_vcard_area {
+    width: 600px;
     background-color: #003186;
     padding-bottom: 50px;
 }
@@ -74,17 +74,16 @@ nav {
 
 .background_img {
     background-image: url(image/group_17.png);
-    padding: 25px;
+    padding: 60px;
     background-repeat: no-repeat;
     background-position: center center;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    position: relative;
 }
 
-.background_left_text {
-    text-align: center;
-    margin-left: 58px;
+.content_1 {
     p {
         font-family: Poppins, sans-serif;
         line-height: 17px;
@@ -97,17 +96,29 @@ nav {
         font-size: 20px;
         font-style: normal;
         font-weight: normal;
-        color: #003186;        margin-top: 20px;
+        color: #003186;        margin-top: 10px;
     }
 }
 
-.background_right_text {
+.content_1 {
+    position: absolute;
+    margin-left: 80px;
     text-align: center;
-    margin-right: 70px;
+    margin-top: -100px;
+}
+
+.content_2 {
+    position: absolute;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 355px;
+}
+
+.content_2 {
     p {
         font-family: Poppins, sans-serif;
         line-height: 17px;
-        color: #003186;
+        color: #003186; 
         font-size: 14px;  
         margin-top: 10px;      
     }
@@ -116,7 +127,7 @@ nav {
         font-size: 20px;
         font-style: normal;
         font-weight: normal;
-        color: #003186;        margin-top: 20px;
+        color: #003186;        margin-top: 10px;
     }
 }
 
@@ -288,4 +299,34 @@ footer {
 .footer_img {
     text-align: center;
     margin-top: 30px;
+}
+
+@media (max-width:768px){
+    #main_vcard_area {
+        width: 100%;
+    }
+
+    .content_1 {
+        margin-left: 0px;
+        p {
+            font-size: 10px;
+        }
+        h3 {
+            font-size: 15px;
+        }
+    }
+
+    .content_2 {
+        margin-left: 265px;
+        p {
+            font-size: 10px;
+        }
+        h3 {
+            font-size: 15px;
+        }       
+    }
+
+    .act_body {
+        gap: 0px;
+    }
 }
